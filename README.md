@@ -8,26 +8,18 @@ There is using a combination of Retrieval and Generative Q/A model.
 
 MongoDB is used to store states in [FSM](https://en.wikipedia.org/wiki/Finite-state_machine/)
 
-## Examples
-
-![example](.github/images/1.png)
-
-## FSM image
-
-![FSM](.github/images/2.png)
-
 ## Run
 
 0. Install [mongoDB](https://www.mongodb.com/)
 1. Clone this repo
-> `git clone https://github.com/Dalvikk/ExamBot`
+> `git clone https://github.com/v-mk-s/Chatty-Bot-DL`
 2. Install dependencies
-> `cd ExamBot/`  
+> `cd Chatty-Bot-DL/`
 > `pip3 install --no-cache-dir -r requirements.txt`
 3. Set environment variables
-> `set PYTHONPATH="." (on Windows)`  
+> `set PYTHONPATH="." (on Windows)`
 
-Let Python know that the package is here, otherwise it raise a exception «module exam_bot not found»  
+Let Python know that the package is here, otherwise it raise a exception «module chatty_bot not found»  
 Now set up other environment variables or write them directly in config.py
 
 ```
@@ -41,12 +33,11 @@ set SEND_ERRORS="True" // "True" if you want that exceptions message will sent t
 ```
 4. Make sure Mongodb is running
 5. Run  
->  `python ./exam_bot/bot.py`
+>  `python ./chatty_bot/bot.py`
 > 
 > 
 ## TODO list
-* Add multi-language support
-* New feature: users will be able to rate themselves, and the bot will collect statistics. The functions "give the question with the worst rating" will be added
-* Reminder: ask a random question every `n` minutes
-* Fix bugs related to race condition
+* Improve [LM](https://en.wikipedia.org/wiki/Language_model/)
+* New feature: users will be able to rate themselves, and the bot will collect statistics.
+* Fix bugs related to [race condition](https://en.wikipedia.org/wiki/Race_condition/)
 * Optimize files sending by sending file_id which will be stored for each file
