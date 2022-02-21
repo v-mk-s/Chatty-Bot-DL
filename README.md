@@ -14,7 +14,7 @@ MongoDB is used to store states in [FSM](https://en.wikipedia.org/wiki/Finite-st
 1. Clone this repo
 > `git clone https://github.com/v-mk-s/Chatty-Bot-DL`
 2. Install dependencies
-> `cd Chatty-Bot-DL/`
+> `cd Chatty-Bot-DL/`  
 > `pip3 install --no-cache-dir -r requirements.txt`
 3. Set environment variables
 > `set PYTHONPATH="." (on Windows)`
