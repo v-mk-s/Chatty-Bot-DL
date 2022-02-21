@@ -6,7 +6,7 @@ You can ask a question or say something, and the bot will answer you in a talkat
 There are three user ranks: admin, moderator, and user.
 There is using a combination of Retrieval and Generative Q/A model.
 
-MongoDB is used to store states in [FSM](https://en.wikipedia.org/wiki/Finite-state_machine/)
+MongoDB is used to store states in [FSM](https://en.wikipedia.org/wiki/Finite-state_machine)
 
 ## Run
 
@@ -37,7 +37,7 @@ set SEND_ERRORS="True" // "True" if you want that exceptions message will sent t
 > 
 > 
 ## TODO list
-* Improve [LM](https://en.wikipedia.org/wiki/Language_model/)
+* Improve [LM](https://en.wikipedia.org/wiki/Language_model)
 * New feature: users will be able to rate themselves, and the bot will collect statistics.
-* Fix bugs related to [race condition](https://en.wikipedia.org/wiki/Race_condition/)
+* Fix bugs related to [race condition](https://en.wikipedia.org/wiki/Race_condition)
 * Optimize files sending by sending file_id which will be stored for each file
