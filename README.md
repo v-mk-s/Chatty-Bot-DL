@@ -1,10 +1,10 @@
-# Talkative Bot
+# Chatty Bot
 
-You can talk with very talkative bot. 
-You can ask a question or say something and bot will answer you in talkative manner. 
+You can talk with a very chatty bot. 
+You can ask a question or say something, and the bot will answer you in a talkative manner. 
 
-There are three user's ranks: admin, moderator, and user.
-There is using combination of Retrieval and Generative Q/A model.
+There are three user ranks: admin, moderator, and user.
+There is using a combination of Retrieval and Generative Q/A model.
 
 MongoDB is used to store states in [FSM](https://en.wikipedia.org/wiki/Finite-state_machine/)
 
