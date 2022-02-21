@@ -6,7 +6,7 @@ You can ask a question or say something and bot will answer you in talkative man
 There are three user's ranks: admin, moderator, and user.
 There is using combination of Retrieval and Generative Q/A model.
 
-MongoDB is used to store states in ![FSM](https://en.wikipedia.org/wiki/Finite-state_machine)
+MongoDB is used to store states in [FSM](https://en.wikipedia.org/wiki/Finite-state_machine/)
 
 ## Examples
 
