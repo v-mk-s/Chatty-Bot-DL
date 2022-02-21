@@ -1,15 +1,12 @@
-# ExamBot
+# Talkative Bot
 
-A bot which will help you pass all exams.  
-It can ask you random questions and send answers afterward.
+You can talk with very talkative bot. 
+You can ask a question or say something and bot will answer you in talkative manner. 
 
-There are three user's ranks: admin, moderator, and user, also three levels of questions select:
-* `Questions` merges to `Modules`, `Modules` merges to `Courses`
-* `User` can select concrete or random question (random from all courses, from the concrete course or concrete module)
-* `Moderator` can add or delete new `courses, modules, question`
-* `Admin` can add or delete `Moderators`
+There are three user's ranks: admin, moderator, and user.
+There is using combination of Retrieval and Generative Q/A model.
 
-MongoDB is used to store states in FSM
+MongoDB is used to store states in ![FSM](https://en.wikipedia.org/wiki/Finite-state_machine)
 
 ## Examples
 
